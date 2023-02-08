@@ -742,6 +742,14 @@ body {
 }
 
 @media only screen and (max-width:500px) {
+    .ticker__item {
+
+      
+        font-size: 18px;
+        
+    
+    }
+    
     .main-heading {
         font-size: 30px;
     }
@@ -762,17 +770,21 @@ body {
     }
 
     .video-btn2 {
-        width: 140px;
+        width: 160px;
         height: 40px;
 
     }
 
     .video-btn2 a {
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 600;
+    }
+    .video-btn a {
         font-size: 14px;
         line-height: 14px;
         font-weight: 600;
     }
-
     .video-btn {
         width: 140px;
         height: 40px;
