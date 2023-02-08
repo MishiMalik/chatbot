@@ -76,7 +76,9 @@ body {
 }
 
 .active-link {
+    font-weight: 600;
     color: white !important;
+    -webkit-text-stroke: 1px var(--primary-dark);
     /* -webkit-text-stroke: 1px var(--primary-dark) !important; */
     text-shadow:
         -0.2rem -0.2rem 1rem #fff,
@@ -794,5 +796,11 @@ body {
     .live-chat {
 
         right: 20px;
+    }
+    .footer-heading {
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--primary-dark);
+        -webkit-text-stroke: 1px white;
     }
 }
