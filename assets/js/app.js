@@ -27,6 +27,7 @@ $(".close-chat").on("click",function(){
 $(".live-chat-btn").on("click",function(){
   $(".live-chat2").css("opacity","1");
   $(".live-chat2").css("right","55px");
+  $(".live-chat2").css("display","block");
   $(this).css("opacity","0");
   // $(".live-chat2").css(" z-index","100");
 })
