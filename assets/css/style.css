@@ -1003,7 +1003,9 @@ body {
 }
 
 @media only screen and (max-width:500px) {
-
+    .form-checkout{
+        padding: 15px !important;
+    }
     .ticker__item {
 
 
